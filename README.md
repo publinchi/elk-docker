@@ -1,12 +1,70 @@
 # Elasticsearch, Logstash, Kibana (ELK) Docker image
 
-[![](https://badge.imagelayers.io/sebp/elk:latest.svg)](https://imagelayers.io/?images=sebp/elk:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/sebp/elk.svg)](https://microbadger.com/images/sebp/elk "Get your own image badge on microbadger.com") [![Documentation Status](https://readthedocs.org/projects/elk-docker/badge/?version=latest)](http://elk-docker.readthedocs.io/?badge=latest)
 
 This Docker image provides a convenient centralised log server and log management web interface, by packaging Elasticsearch, Logstash, and Kibana, collectively known as ELK.
 
+### Documentation
+
+See the [ELK Docker image documentation web page](http://elk-docker.readthedocs.io/) for complete instructions on how to use this image.
+
+### Docker Hub
+
+This image is hosted on Docker Hub at [https://hub.docker.com/r/sebp/elk/](https://hub.docker.com/r/sebp/elk/).
+
 The following tags are available:
 
-- `latest`, `530`: ELK 5.3.0.
+- `latest`, `622`: ELK 6.2.2.
+
+- `621`: ELK 6.2.1.
+
+- `620`: ELK 6.2.0.
+
+- `613`: ELK 6.1.3.
+
+- `612`: ELK 6.1.2.
+
+- `611`: ELK 6.1.1.
+
+- `610`: ELK 6.1.0.
+
+- `601`: ELK 6.0.1.
+
+- `600`: ELK 6.0.0.
+
+- `568`: ELK 5.6.8.
+
+- `564`: ELK 5.6.4.
+
+- `563`: ELK 5.6.3.
+
+- `562`: ELK 5.6.2.
+
+- `561`: ELK 5.6.1.
+
+- `560`: ELK 5.6.0.
+
+- `553`: ELK 5.5.3.
+
+- `552`: ELK 5.5.2.
+
+- `551`: ELK 5.5.1.
+
+- `550`: ELK 5.5.0.
+
+- `543`: ELK 5.4.3.
+
+- `542`: ELK 5.4.2.
+
+- `541`: ELK 5.4.1.
+
+- `540`: ELK 5.4.0.
+
+- `532`: ELK 5.3.2.
+
+- `531`: ELK 5.3.1.
+
+- `530`: ELK 5.3.0.
 
 - `522`: ELK 5.2.2.
 
@@ -51,14 +109,6 @@ The following tags are available:
 - `E1L1K4`: Elasticsearch 1.7.3, Logstash 1.5.5, and Kibana 4.1.2.
 
 **Note** – See the documentation page for more information on pulling specific combinations of versions of Elasticsearch, Logstash and Kibana.
-
-### Documentation
-
-See the [ELK Docker image documentation web page](http://elk-docker.readthedocs.io/) for complete instructions on how to use this image.
-
-### Docker Hub
-
-This image is hosted on Docker Hub at [https://hub.docker.com/r/sebp/elk/](https://hub.docker.com/r/sebp/elk/).
 
 ### About
 
